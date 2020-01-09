@@ -1,3 +1,5 @@
+Code for the Pluralsight guide [Testing Asynchronous Functionality in a React Component](https://www.pluralsight.com/guides/testing-asynchronous-functionality-react-component)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
