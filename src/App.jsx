@@ -9,6 +9,7 @@ function App() {
     return (
         <div className="App">
             <h1>React Test async</h1>
+            <h2>Added Firesbase using Github</h2>
             <DisplayData get={getData} />
             <TimerMessage />
         </div>
