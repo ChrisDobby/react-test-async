@@ -14,14 +14,16 @@ const DisplayData = ({ get }) => {
     };
     return (
         <>
+        <hr/>
             <button type="button" onClick={getData} aria-label="get data">
                 Get data
             </button>
             {display && (
                 <div className="display" aria-label="display">
-                    {display}
+                    <h3>{display}</h3>
                 </div>
             )}
+            <hr/>
         </>
     );
 };
