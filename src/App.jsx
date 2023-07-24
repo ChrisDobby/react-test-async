@@ -8,6 +8,7 @@ const getData = () => new Promise(resolve => setTimeout(() => resolve("Some data
 function App() {
     return (
         <div className="App">
+            <h1>React Test async</h1>
             <DisplayData get={getData} />
             <TimerMessage />
         </div>
